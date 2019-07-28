@@ -13,13 +13,14 @@ html, body {
   background-color: #6ad0d5;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
 }
 
 .ear-left {
   position: absolute;
-  top: 93px;
-  left: 622px;
+  top: -10px;
+  left: 24px;
   width: 45px;
   height: 48px;
   background: #905c46;
@@ -55,8 +56,8 @@ html, body {
 
 .ear-right {
   position: absolute;
-  top: 93px;
-  left: 699px;
+  top: -10px;
+  left: 101px;
   width: 45px;
   height: 48px;
   background: #905c46;
@@ -94,6 +95,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .head {
@@ -174,6 +176,9 @@ html, body {
   left: 21px;
   transform: rotate(144deg);
 }
+
+
+
 
 
 
